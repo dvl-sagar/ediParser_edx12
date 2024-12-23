@@ -1,0 +1,142 @@
+{
+  "functionalGroups": [
+    {
+      "header": {
+        "applicationReceiverCode": "RECEIVERID",
+        "applicationSenderCode": "SENDERID",
+        "controlNumber": 1,
+        "date": "2023-01-01T00:00:00Z",
+        "functionalIdentifierCode": "HR",
+        "responsibleAgencyCode": "X",
+        "time": "0000-01-01T12:00:00Z",
+        "versionCode": "005010X212"
+      },
+      "trailer": {
+        "controlNumber": 1,
+        "transactionSetCount": 1
+      },
+      "transactionSets": [
+        {
+          "BHT": {
+            "BHT01": "0010",
+            "BHT02": "13",
+            "BHT03": "1234567",
+            "BHT04": "20230101",
+            "BHT05": "1200"
+          },
+          "DTP": {
+            "DTP01": "472",
+            "DTP02": "RD8",
+            "DTP03": "20230101-20230115"
+          },
+          "HL[0]": {
+            "HL01": "1",
+            "HL02": "",
+            "HL03": "20",
+            "HL04": "1"
+          },
+          "HL[1]": {
+            "HL01": "2",
+            "HL02": "1",
+            "HL03": "21",
+            "HL04": "1"
+          },
+          "HL[2]": {
+            "HL01": "3",
+            "HL02": "2",
+            "HL03": "19",
+            "HL04": "1"
+          },
+          "HL[3]": {
+            "HL01": "4",
+            "HL02": "3",
+            "HL03": "PT"
+          },
+          "NM1[0]": {
+            "NM101": "PR",
+            "NM102": "2",
+            "NM103": "INSURANCE COMPANY",
+            "NM104": "",
+            "NM105": "",
+            "NM106": "",
+            "NM107": "",
+            "NM108": "PI",
+            "NM109": "12345"
+          },
+          "NM1[1]": {
+            "NM101": "41",
+            "NM102": "2",
+            "NM103": "SENDING PROVIDER",
+            "NM104": "",
+            "NM105": "",
+            "NM106": "",
+            "NM107": "",
+            "NM108": "46",
+            "NM109": "654321"
+          },
+          "NM1[2]": {
+            "NM101": "1P",
+            "NM102": "2",
+            "NM103": "REQUESTING PROVIDER",
+            "NM104": "",
+            "NM105": "",
+            "NM106": "",
+            "NM107": "",
+            "NM108": "XX",
+            "NM109": "9876543210"
+          },
+          "NM1[3]": {
+            "NM101": "IL",
+            "NM102": "1",
+            "NM103": "DOE",
+            "NM104": "JOHN",
+            "NM105": "",
+            "NM106": "",
+            "NM107": "",
+            "NM108": "MI",
+            "NM109": "123456789"
+          },
+          "REF": {
+            "REF01": "1K",
+            "REF02": "PATIENTCONTROLNUM"
+          },
+          "SE": {
+            "SE01": "14",
+            "SE02": "0001"
+          },
+          "ST": {
+            "ST01": "276",
+            "ST02": "0001",
+            "ST03": ""
+          },
+          "TRN": {
+            "TRN01": "1",
+            "TRN02": "TRACKINGNUMBER"
+          }
+        }
+      ]
+    }
+  ],
+  "header": {
+    "acknowledgmentRequested": "0",
+    "authorizationInformation": "          ",
+    "authorizationQualifier": "00",
+    "componentElementSeparator": ":",
+    "controlNumber": 1,
+    "controlVersionNumber": "00501",
+    "date": "2023-01-01T00:00:00Z",
+    "receiverId": "RECEIVERID     ",
+    "receiverIdQualifier": "ZZ",
+    "repetitionSeparator": "^",
+    "securityInformation": "          ",
+    "securityInformationQualifier": "00",
+    "senderId": "SENDERID       ",
+    "senderIdQualifier": "ZZ",
+    "time": "0000-01-01T12:00:00Z",
+    "usageIndicator": "P"
+  },
+  "trailer": {
+    "controlNumber": 1,
+    "functionalGroupCount": 1
+  }
+}
